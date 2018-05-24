@@ -1,0 +1,58 @@
+uuid: 056095f5-c409-4abd-bd47-56596770e8a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.call_to_action_3.field_bg_color
+    - field.field.paragraph.call_to_action_3.field_body
+    - field.field.paragraph.call_to_action_3.field_link
+    - field.field.paragraph.call_to_action_3.field_title
+    - paragraphs.paragraphs_type.call_to_action_3
+  module:
+    - color_field
+    - link
+    - text
+_core:
+  default_config_hash: aC2irJSKKZW5zZDPblalLGD_iwJ5lqXgJdOUTGuB9Hk
+id: paragraph.call_to_action_3.default
+targetEntityType: paragraph
+bundle: call_to_action_3
+mode: default
+content:
+  field_bg_color:
+    weight: 0
+    label: inline
+    settings:
+      format: hex
+      opacity: '1'
+    third_party_settings: {  }
+    type: color_field_formatter_text
+    region: content
+  field_body:
+    weight: 5
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_link:
+    weight: 4
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_title:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

@@ -1,0 +1,24 @@
+uuid: 5eb97453-f6d9-4ce7-9d8b-c15adda74f0a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_bg_color
+    - paragraphs.paragraphs_type.call_to_action_3
+  module:
+    - color_field
+_core:
+  default_config_hash: u5PnEhVJy86DH3KjljCKPNrqiXnZ40eYuYfSFFmA5sE
+id: paragraph.call_to_action_3.field_bg_color
+field_name: field_bg_color
+entity_type: paragraph
+bundle: call_to_action_3
+label: 'Background Color'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  opacity: 0
+field_type: color_field_type

@@ -1,0 +1,25 @@
+uuid: fdf51d4d-4491-4c46-a10b-e92a478a7b0f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_content_align
+    - paragraphs.paragraphs_type.call_to_action_1
+  module:
+    - options
+_core:
+  default_config_hash: AVoOQZFZNV5tf1UKazLwQutMJorXYPoHA1o7MuR5Qqc
+id: paragraph.call_to_action_1.field_content_align
+field_name: field_content_align
+entity_type: paragraph
+bundle: call_to_action_1
+label: 'Content align'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: text--center
+default_value_callback: ''
+settings: {  }
+field_type: list_string

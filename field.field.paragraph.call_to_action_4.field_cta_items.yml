@@ -1,0 +1,62 @@
+uuid: 73eb29cd-8974-459a-913d-5762c5774a06
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_cta_items
+    - paragraphs.paragraphs_type.call_to_action_4
+    - paragraphs.paragraphs_type.cta_item
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: jX8RwRISDuW1rvYwtF1FV9nEN1b2UtlG8LxSbhV5s8k
+id: paragraph.call_to_action_4.field_cta_items
+field_name: field_cta_items
+entity_type: paragraph
+bundle: call_to_action_4
+label: 'CTA Items'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      cta_item: cta_item
+    target_bundles_drag_drop:
+      call_to_action_1:
+        weight: 12
+        enabled: false
+      call_to_action_2:
+        weight: 13
+        enabled: false
+      call_to_action_3:
+        weight: 14
+        enabled: false
+      call_to_action_4:
+        weight: 15
+        enabled: false
+      cta_item:
+        enabled: true
+        weight: 16
+      hero_banner_1:
+        weight: 17
+        enabled: false
+      hero_banner_2:
+        weight: 18
+        enabled: false
+      hero_banner_3:
+        weight: 19
+        enabled: false
+      hero_banner_4:
+        weight: 20
+        enabled: false
+      sidekick_banner_1:
+        weight: 21
+        enabled: false
+      sidekick_banner_2:
+        weight: 22
+        enabled: false
+field_type: entity_reference_revisions

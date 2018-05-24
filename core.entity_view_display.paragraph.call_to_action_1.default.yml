@@ -1,0 +1,66 @@
+uuid: a3ebf1db-57ce-47bf-9136-0d6590b6d38b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.call_to_action_1.field_bg_color
+    - field.field.paragraph.call_to_action_1.field_content_align
+    - field.field.paragraph.call_to_action_1.field_description
+    - field.field.paragraph.call_to_action_1.field_links
+    - field.field.paragraph.call_to_action_1.field_title
+    - paragraphs.paragraphs_type.call_to_action_1
+  module:
+    - color_field
+    - link
+    - options
+_core:
+  default_config_hash: TnkN8ccdJHo2f1xB4RARy4c17zLanoGn2g7WNzMbSrY
+id: paragraph.call_to_action_1.default
+targetEntityType: paragraph
+bundle: call_to_action_1
+mode: default
+content:
+  field_bg_color:
+    weight: 2
+    label: hidden
+    settings:
+      format: hex
+      opacity: '1'
+    third_party_settings: {  }
+    type: color_field_formatter_text
+    region: content
+  field_content_align:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_key
+    region: content
+  field_description:
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_links:
+    weight: 4
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_title:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

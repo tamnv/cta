@@ -1,0 +1,26 @@
+uuid: 9774a8ca-7dab-4693-94da-0504052630c4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.call_to_action_4.field_cta_items
+    - paragraphs.paragraphs_type.call_to_action_4
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: ilJQ9PqfwS__a8g-8WP2omwy1zcrvvSlVEDugMpPYRQ
+id: paragraph.call_to_action_4.default
+targetEntityType: paragraph
+bundle: call_to_action_4
+mode: default
+content:
+  field_cta_items:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden: {  }

@@ -1,0 +1,25 @@
+uuid: 1913e178-778a-4ef3-849a-36863c84e928
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_links
+    - paragraphs.paragraphs_type.call_to_action_1
+  module:
+    - link
+_core:
+  default_config_hash: 7oJ6BuTABzQ4dEEEN1sxMx2U9JMTnKU5izCMXvPRTtQ
+id: paragraph.call_to_action_1.field_links
+field_name: field_links
+entity_type: paragraph
+bundle: call_to_action_1
+label: Links
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 2
+field_type: link

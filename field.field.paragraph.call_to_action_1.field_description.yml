@@ -1,0 +1,21 @@
+uuid: b26a3e5e-4177-45f6-95a4-e5c4d6618a2a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_description
+    - paragraphs.paragraphs_type.call_to_action_1
+_core:
+  default_config_hash: HWCEDJ2Xx5HL4ORZxWNfaX4acAGjP8C8T1A34R4Ueh4
+id: paragraph.call_to_action_1.field_description
+field_name: field_description
+entity_type: paragraph
+bundle: call_to_action_1
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

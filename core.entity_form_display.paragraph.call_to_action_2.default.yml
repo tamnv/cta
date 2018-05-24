@@ -1,0 +1,69 @@
+uuid: 224721f8-7c18-478c-8c26-0ee2cc85bafb
+langcode: en
+status: true
+dependencies:
+  config:
+    - entity_browser.browser.image_browser
+    - field.field.paragraph.call_to_action_2.field_content_align
+    - field.field.paragraph.call_to_action_2.field_description
+    - field.field.paragraph.call_to_action_2.field_links
+    - field.field.paragraph.call_to_action_2.field_media
+    - field.field.paragraph.call_to_action_2.field_title
+    - paragraphs.paragraphs_type.call_to_action_2
+  module:
+    - entity_browser
+    - link
+id: paragraph.call_to_action_2.default
+targetEntityType: paragraph
+bundle: call_to_action_2
+mode: default
+content:
+  field_content_align:
+    type: options_select
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_description:
+    type: string_textarea
+    weight: 2
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_links:
+    type: link_default
+    weight: 3
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_media:
+    weight: 4
+    settings:
+      entity_browser: image_browser
+      field_widget_display: rendered_entity
+      field_widget_edit: true
+      field_widget_remove: true
+      selection_mode: selection_append
+      field_widget_display_settings:
+        view_mode: form_image_preview
+      open: false
+    third_party_settings: {  }
+    type: entity_browser_entity_reference
+    region: content
+  field_title:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  moderation_state: true
+  status: true
+  uid: true

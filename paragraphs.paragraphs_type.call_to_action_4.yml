@@ -1,0 +1,11 @@
+uuid: 30808f1b-733d-4cb4-9d34-925840cca6f6
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vVePGisMOXA2jdNwfh8iIhTYjW788YC_-kVJ_ZFinBs
+id: call_to_action_4
+label: 'Call To Action 4'
+icon_uuid: null
+description: null
+behavior_plugins: {  }

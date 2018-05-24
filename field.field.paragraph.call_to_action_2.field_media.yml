@@ -1,0 +1,29 @@
+uuid: 4bc134d3-787c-4b07-9445-165eef344585
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_media
+    - media.type.image
+    - paragraphs.paragraphs_type.call_to_action_2
+id: paragraph.call_to_action_2.field_media
+field_name: field_media
+entity_type: paragraph
+bundle: call_to_action_2
+label: 'Background Image'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: name
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
